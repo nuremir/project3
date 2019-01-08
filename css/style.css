@@ -106,8 +106,25 @@ body {
 	padding-right: 5px;
 }
 
+.social-media {
+	position: absolute;
+	position: absolute;
+	left: 50%;
+	top: 220%;
+	transform: translate(-50%, -50%);
+}
 
+.social-media ul {
+	padding: 0;
+}
 
+.social-media li {
+	display: inline-block;
+}
+
+.social-media a {
+	margin: 0 10px;
+}
 
 
 
