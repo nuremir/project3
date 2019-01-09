@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman";
+	font-family: monospace;
 }
 
 
@@ -10,7 +10,6 @@ body {
 	background-size: 100%;
   width: 100%;
   height: 785px;
-	position: absolute;
 	color: #fff;
 }
 
@@ -54,7 +53,7 @@ body {
 	top: 55%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	width: 1020px;
+	width: 1090px;
 }
 
 .header-logo h1 {
@@ -85,7 +84,9 @@ body {
 .batton-logo {
 	text-decoration: none;
 	color: #fff;
+	font-size: 16xp;
 	position: absolute;
+	width: 190px;
 	left: 50%;
 	top: 120%;
 	transform: translate(-50%, -50%);
@@ -124,12 +125,80 @@ body {
 
 .social-media a {
 	margin: 0 10px;
+	transition: 0.2s;
 }
 
+.social-media a:hover,
+.social-media a:active {
+	border-bottom: 2px solid #16a085;
+}
 
+/* PHONE-CONTAINER1 */
 
+.phone-container1 {
+	background-image: url(css-img/background2.png);
+	height: 500px;
+	display: flex;
+}
 
+.phone-content {
+	width: 50%;
+}
 
+.phone-content p {
+	font-size: 10px;
+	line-height: 3;
+	width: 425px;
+	color: #646465;
+	margin-left: 205px;
+	margin-top: 35px;
+}
+
+.phone-content h1 {
+	font-size: 24px;
+	color: #16a085;
+	margin-left: 205px;
+	margin-top: 90px;
+}
+
+.batton-phone {
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	left: 300px;
+	top: 181%;
+	width: 190px;
+	height: 57px;
+	transform: translate(-50%, -50%);
+	background-color: #16a085;
+	margin-top: 35px;
+}
+
+.batton-phone p {
+	font-size: 16xp;
+	display: inline-flex;
+	width: 44%;
+	padding: 5px 20px;
+	color: #fff;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+.batton-phone img {
+	display: inline-flex;
+	margin-left: 10px;
+	margin-bottom: -11px;
+	padding-right: 5px;
+}
+
+.phone-content2 {
+	width: 50%;
+}
+
+.phone-content2 img {
+	margin-left: 200px;
+	margin-top: 35px;
+}
 
 
 
