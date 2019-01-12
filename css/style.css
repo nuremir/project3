@@ -65,6 +65,7 @@ body {
 	font-size: 16px;
 	font-weight: 100;
 	letter-spacing: 2px;
+	margin-bottom: 50px;
 }
 
 .left-line {
@@ -83,35 +84,29 @@ body {
 
 .batton-logo {
 	text-decoration: none;
-	color: #fff;
-	font-size: 16xp;
-	position: absolute;
-	width: 190px;
-	left: 50%;
-	top: 120%;
-	transform: translate(-50%, -50%);
-	background-color: #16a085;
-	margin-top: 35px;
 }
 
 .batton-logo p {
+	width: 170px;
+	height: 57px;
+	color: #fff;
+	background-color: #16a085;
 	font-size: 16xp;
-	display: inline-flex;
-	padding: 5px 20px;
+	display: inline-table;
+	padding-left: 20px;
 }
 
 .batton-logo img {
-	display: inline-flex;
-	margin-left: 10px;
-	margin-bottom: -11px;
-	padding-right: 5px;
+	margin-bottom: -10px;
+	margin-top: 10px;
+	padding-left: 40px;
 }
 
 .social-media {
 	position: absolute;
 	position: absolute;
 	left: 50%;
-	top: 220%;
+	top: 130%;
 	transform: translate(-50%, -50%);
 }
 
@@ -145,7 +140,7 @@ body {
 	width: 50%;
 }
 
-.phone-content p {
+.phone-content .phone-text {
 	font-size: 10px;
 	line-height: 3;
 	width: 425px;
@@ -161,44 +156,128 @@ body {
 	margin-top: 90px;
 }
 
-.batton-phone {
+.batton-phone1 {
 	text-decoration: none;
-	color: #fff;
-	position: absolute;
-	left: 300px;
-	top: 181%;
-	width: 190px;
+	margin-left: 205px;
+}
+
+.batton-phone1 p {
+	width: 170px;
 	height: 57px;
-	transform: translate(-50%, -50%);
+	color: #fff;
 	background-color: #16a085;
+	font-size: 16xp;
+	display: inline-table;
+	padding-left: 20px;
+}
+
+.batton-phone1 img {
+	margin-bottom: -10px;
+	margin-top: 10px;
+	padding-left: 40px;
+}
+
+.phone-img {
+	width: 50%;
+}
+
+.phone-img img {
+	margin-left: 200px;
 	margin-top: 35px;
 }
 
-.batton-phone p {
-	font-size: 16xp;
-	display: inline-flex;
-	width: 44%;
-	padding: 5px 20px;
-	color: #fff;
-	margin-left: 0;
-	margin-top: 10px;
+/* PHONE-CONTAINER2 */
+
+.phone-container2 {
+	height: 550px;
+	background-color: #fff;
+	display: flex;
 }
 
-.batton-phone img {
-	display: inline-flex;
-	margin-left: 10px;
-	margin-bottom: -11px;
-	padding-right: 5px;
+.phone-img2 {
+	width: 50%;
+	margin-left: 225px;
+	margin-top: 90px;
 }
 
 .phone-content2 {
 	width: 50%;
 }
 
-.phone-content2 img {
-	margin-left: 200px;
-	margin-top: 35px;
+.phone-content2 h1 {
+	font-size: 24px;
+	color: #16a085;
+	margin-top: 90px;
 }
+
+.phone-content2 .phone-text2 {
+	width: 425px;
+	line-height: 3;
+	font-size: 10px;
+	color: #646465;
+	margin-top: 45px;
+}
+
+.batton-phone2 {
+	text-decoration: none;
+}
+
+.batton-phone2 p {
+	width: 170px;
+	height: 57px;
+	color: #fff;
+	background-color: #16a085;
+	font-size: 16xp;
+	display: inline-table;
+	padding-left: 20px;
+}
+
+.batton-phone2 img {
+	margin-bottom: -10px;
+	margin-top: 10px;
+	padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
