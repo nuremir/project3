@@ -345,24 +345,63 @@ body {
 	margin-right: 10px;
 }
 
+/* FOOTER */
 
+.footer {
+	background-image: url(css-img/background4.png);
+	height: 400px;
+}
 
+.footer-content {
+	text-align: center;
+	display: inline-block;
+	margin-top: 60px;
+	width: 830px;
+	margin-left: 225px;
+}
 
+.footer-content h1 {
+	font-size: 24px;	
+	color: #414141;
+}
 
+.footer-content p {
+	font-size: 10px;
+	width: 830px;
+	line-height: 3;
+}
 
+.footer-img {
+	margin-top: 40px;
+}
 
+.footer-img img {
+	margin: 0 80px;
+}
 
+.footer2 {
+	height: 100px;
+}
 
+.footer2 p {
+	display: inline;
+	color: #414141
+}
 
+.footer2 img {
+	margin: 28px 35px 28px 205px;
+	float: left;
+}
 
+.left {
+	float: left;
+	margin: 50px 0 0 45px;
+}
 
-
-
-
-
-
-
-
+.right {
+	float: right;
+	margin: 50px 290px 0 45px;
+}
 
 
 
